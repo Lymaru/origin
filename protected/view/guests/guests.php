@@ -1,7 +1,7 @@
 <div id="rightPartMyPage_guests">
-<div id="forOnline">
-   <p id="guests_header"> Guests for the day:</p>    
-</div>
+    <div id="forOnline">
+        <p id="guests_header"> Guests for the day:</p>    
+    </div>
 <div id="main_global_search">
         <?php 
         foreach($guests as $k => $v){?>

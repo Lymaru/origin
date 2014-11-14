@@ -22,7 +22,7 @@ class Event_Controller extends BaseController{
             
             if(isset($_GET['accept']) && !empty($_GET['accept']))
             {
-             /*   $this->redirect('/event');*/ /* Обновление страницы*/
+             /*   $this->redirect('/event'); Обновление страницы*/
                 Requests::model()->acceptInvitation();    
             }
             
